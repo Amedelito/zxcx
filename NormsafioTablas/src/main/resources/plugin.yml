@@ -1,0 +1,14 @@
+name: NormsafioTablas
+version: '1.0.0'
+main: es.normsafio.tablas.TablasPlugin
+api-version: '1.21'
+softdepend: [Normsafio]
+description: Tablas 3D de clasificacion (kills, muertes, radianitas) con cabezas de jugador.
+commands:
+  tablas:
+    description: Gestiona las tablas 3D
+    aliases: [scoreboard3d, top3d]
+permissions:
+  normsafio.tablas.admin:
+    description: Crear y borrar tablas 3D
+    default: op

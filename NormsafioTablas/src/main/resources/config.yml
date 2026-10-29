@@ -1,0 +1,12 @@
+# Filas (jugadores) que muestra cada tabla. Cambiarlo y /tablas recargar reconstruye las tablas.
+rows: 5
+# Cada cuantos segundos se actualizan solas.
+update-seconds: 10
+# Que estadistica cuenta como "kills": PLAYER_KILLS (jugadores) o MOB_KILLS (mobs).
+kills-statistic: PLAYER_KILLS
+# Tamano de las cabezas (si las ves pequenas/grandes, ajusta aqui).
+head-scale: 1.0
+# Giro de las cabezas en grados (si miran hacia atras pon 180).
+head-yaw: 0
+# Escala del texto del nombre/cantidad.
+text-scale: 1.6
